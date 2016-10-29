@@ -1,3 +1,16 @@
-.page-section {
-    border-bottom:60px;
+body {
+    @import url('https://fonts.googleapis.com/css?family=Libre+Franklin:100,300,400,500');
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+h1,h2,h3,h4 {
+    font-weight: 300;
+}
+
+p {
+    font-weight: 200;
+}
+
+p.lead {
+    font-weight: 100;
 }
