@@ -24,3 +24,13 @@ p {
 p.lead {
     font-weight: 100;
 }
+
+@font-face {
+    font-family: "slamby";
+    src: url('/Slamby.woff');
+}
+
+.logo {
+    font-family: slamby;
+    font-size: 2em;
+}
