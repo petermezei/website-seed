@@ -2,11 +2,12 @@ var gulp = require('gulp');
 var sass = require('gulp-sass');
 var bs = require('browser-sync').create();
 
-gulp.task('browser-sync', ['sass'], function() {
+gulp.task('browser-sync', ['sass'],function() {
     bs.init({
         server: {
             baseDir: "./"
-        }
+        },
+        files: ['img/*.svg']
     });
 });
 
